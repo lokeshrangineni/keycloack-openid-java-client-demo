@@ -1,4 +1,4 @@
-##keycloak-openid-oauth2-java-client-demo
+## keycloak-openid-oauth2-java-client-demo
 As part of this application we are trying to secure the rest endpoint using openid - oauth2 specification.
 
 #### Why this service required?
