@@ -1,4 +1,4 @@
-package com.redhat.openid.client.keycloack.openid.client.config;
+package com.redhat.openid.client.keycloak.config;
 
 import lombok.val;
 import org.keycloak.admin.client.Keycloak;
@@ -10,7 +10,7 @@ import org.springframework.context.annotation.Configuration;
 import static org.keycloak.OAuth2Constants.CLIENT_CREDENTIALS;
 
 @Configuration
-public class KeycloackClientConfig {
+public class keycloakClientConfig {
 
     @Value("${keycloak.credentials.secret}")
     private String secretKey;

@@ -1,7 +1,7 @@
 {
   "id": "test-v1",
-  "realm": "keycloack-role-rest-auth-setup",
-  "displayName": "keycloack-role-rest-auth-setup",
+  "realm": "keycloak-role-rest-auth-setup",
+  "displayName": "keycloak-role-rest-auth-setup",
   "displayNameHtml": "",
   "notBefore": 0,
   "defaultSignatureAlgorithm": "RS256",
@@ -553,6 +553,7 @@
       "disableableCredentialTypes": [],
       "requiredActions": [],
       "realmRoles": [
+        "view-users-role",
         "default-roles-test-v1",
         "update-create-delete-users"
       ],
@@ -594,14 +595,14 @@
       "clientId": "account",
       "name": "${client_account}",
       "rootUrl": "${authBaseUrl}",
-      "baseUrl": "/realms/keycloack-role-rest-auth-setup/account/",
+      "baseUrl": "/realms/keycloak-role-rest-auth-setup/account/",
       "surrogateAuthRequired": false,
       "enabled": true,
       "alwaysDisplayInConsole": false,
       "clientAuthenticatorType": "client-secret",
       "secret": "**********",
       "redirectUris": [
-        "/realms/keycloack-role-rest-auth-setup/account/*"
+        "/realms/keycloak-role-rest-auth-setup/account/*"
       ],
       "webOrigins": [],
       "notBefore": 0,
@@ -1399,14 +1400,14 @@
       "clientId": "security-admin-console",
       "name": "${client_security-admin-console}",
       "rootUrl": "${authAdminUrl}",
-      "baseUrl": "/admin/keycloack-role-rest-auth-setup/console/",
+      "baseUrl": "/admin/keycloak-role-rest-auth-setup/console/",
       "surrogateAuthRequired": false,
       "enabled": true,
       "alwaysDisplayInConsole": false,
       "clientAuthenticatorType": "client-secret",
       "secret": "**********",
       "redirectUris": [
-        "/admin/keycloack-role-rest-auth-setup/console/*"
+        "/admin/keycloak-role-rest-auth-setup/console/*"
       ],
       "webOrigins": [
         "+"
@@ -2112,14 +2113,6 @@
             "true"
           ]
         }
-      }
-    ],
-    "org.keycloak.userprofile.UserProfileProvider": [
-      {
-        "id": "d1e46119-e572-446f-94a2-2f72a3fef870",
-        "providerId": "declarative-user-profile",
-        "subComponents": {},
-        "config": {}
       }
     ],
     "org.keycloak.keys.KeyProvider": [

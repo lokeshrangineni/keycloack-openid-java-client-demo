@@ -1,5 +1,5 @@
 
-package com.redhat.openid.client.keycloack.openid.client.config;
+package com.redhat.openid.client.keycloak.config;
 
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.boot.autoconfigure.security.oauth2.resource.OAuth2ResourceServerProperties;
@@ -14,7 +14,7 @@ import java.util.*;
 
 @Configuration
 public class JwtDecoderConfig {
-    @Value("${spring.security.oauth2.client.provider.keycloack.jwk-set-uri}")
+    @Value("${spring.security.oauth2.client.provider.keycloak.jwk-set-uri}")
     private String jwkSetUri;
 
     @Bean

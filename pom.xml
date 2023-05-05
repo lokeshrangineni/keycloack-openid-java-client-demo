@@ -9,10 +9,10 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>com.redhat.openid.client</groupId>
-    <artifactId>keycloack-openid-java-client-demo</artifactId>
+    <artifactId>keycloak-openid-java-client-demo</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>keycloack-openid-java-client-demo</name>
-    <description>keycloack-openid-java-client-demo</description>
+    <name>keycloak-openid-java-client-demo</name>
+    <description>keycloak-openid-java-client-demo</description>
     <properties>
         <java.version>16</java.version>
         <maven.compiler.source>16</maven.compiler.source>

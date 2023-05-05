@@ -1,4 +1,4 @@
-package com.redhat.openid.client.keycloack.openid.client.controller;
+package com.redhat.openid.client.keycloak.controller;
 
 import org.keycloak.admin.client.Keycloak;
 import org.keycloak.representations.idm.UserRepresentation;

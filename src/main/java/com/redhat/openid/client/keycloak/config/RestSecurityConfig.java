@@ -1,4 +1,4 @@
-package com.redhat.openid.client.keycloack.openid.client.config;
+package com.redhat.openid.client.keycloak.config;
 
 
 import org.springframework.context.annotation.Bean;
